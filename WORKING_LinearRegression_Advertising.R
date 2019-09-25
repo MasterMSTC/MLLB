@@ -26,7 +26,7 @@ plot(Radio,Sales)
 plot(Newspaper,Sales)
 
 # Explore scatter plots
-pairs(~ TV + Radio + News.paper + Sales, Advertising) 
+pairs(~ TV + Radio + Newspaper + Sales, Advertising) 
 
 # More advanced ggplot (2)
 # https://deanattali.com/2015/03/29/ggExtra-r-package/
