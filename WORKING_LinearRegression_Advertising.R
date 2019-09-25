@@ -10,4 +10,4 @@ setwd("D:/MSTC_BD/R/Curso_2019_20/LINEAR_REGRESSION/DATA")
 #Read the csv file into Advertising
 Advertising=read.csv("Advertising.csv")
 fix(Advertising)
-hola
+
