@@ -31,13 +31,13 @@ pairs(~ TV + Radio + News.paper + Sales, Advertising)
 # More advanced ggplot (2)
 # https://deanattali.com/2015/03/29/ggExtra-r-package/
 
-install.packages("ggExtra")
+#install.packages("ggExtra")
 
-library(ggplot2)
+#library(ggplot2)
 # create a ggplot2 scatterplot
-p <- ggplot(Advertising, aes(TV, Sales)) + geom_point() + theme_classic()
+#p <- ggplot(Advertising, aes(TV, Sales)) + geom_point() + theme_classic()
 # add marginal histograms
-ggExtra::ggMarginal(p, type = "histogram")
+#ggExtra::ggMarginal(p, type = "histogram")
 
 # You can start trying a simple linear regression:
 # Predicting Sales only from TV budget
